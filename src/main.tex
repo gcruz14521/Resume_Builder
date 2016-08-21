@@ -1,0 +1,32 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{pythontex}
+
+\input{pythonCode}
+
+\begin{document}
+\section{Company X}
+August 20, 2016 - August 21, 2016
+
+\begin{enumerate}
+\pyc{getData("CompanyX","dataScience")}
+\end{enumerate}
+
+OR
+
+\begin{itemize}
+\pyc{getData("CompanyX","developer")}
+\end{itemize}
+
+OR
+
+\begin{enumerate}
+\pyc	{getData("CompanyX","dataScience, developer")}
+\end{enumerate}
+
+\end{document}
